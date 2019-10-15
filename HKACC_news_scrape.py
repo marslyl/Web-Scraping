@@ -28,7 +28,7 @@ for item in cutList:
 outList.reverse()
 dateTemp = ""
 
-logFileStr = r"C:\Users\marzl\Documents\#Python codes\HKACC News Scraping\hkacc_news_scraping_log.txt"
+logFileStr = r"hkacc_news_scraping_log.txt"
 try:
     f = open(logFileStr, "r")
     #Check if all-updated
